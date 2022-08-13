@@ -1,6 +1,6 @@
 export PATH="~/Library/Application Support/JetBrains/Toolbox/scripts:$PATH"
 export PATH=$PATH:~/.npm-global/bin
-alias zalias="code ~/code/dotfiles/.zshrc"
+alias zalias="vim ~/code/dotfiles/.zshrc"
 alias src="~/code/dotfiles/source.sh"
 alias cdtf="cd /Users/home/code/learning/react/tensorflow"
 alias commit="git add -A && git commit -m 'commit' --allow-empty && git push"
