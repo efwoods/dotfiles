@@ -1,5 +1,5 @@
-export PATH=~/.npm-global/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/home/Library/Python/3.8/bin:/usr/local/share/dotnet:~/.dotnet/tools
-
+export PATH="~/Library/Application Support/JetBrains/Toolbox/scripts:$PATH"
+export PATH=$PATH:~/.npm-global/bin
 alias zalias="code ~/code/dotfiles/.zshrc"
 alias src="~/code/dotfiles/source.sh"
 alias cdtf="cd /Users/home/code/learning/react/tensorflow"
@@ -9,3 +9,4 @@ alias drmc="docker rm -f $(docker ps -aq)"
 alias di="docker image ls -a"
 alias dc="docker ps -a"
 alias hw="echo Hello World"
+alias python="python3"
